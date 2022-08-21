@@ -1,0 +1,303 @@
+html, body, section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+    float: left;
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* section {
+    padding: 60px 0;
+} */
+
+header {
+    padding: 5px 5%;
+    height: 70px;
+    /* border: 1px solid #f2f2f2; */
+    box-shadow: 2px 2px 3px rgba(153, 153, 153, 0.1);
+}
+
+.top-header {
+    height: 40px; 
+    background: navy;
+    padding: 5px 5%;
+    color: white;
+}
+
+.top-header ul {
+    font-size: 12px;
+    list-style-type: none;
+}
+
+.top-header ul li {
+    float: left;
+    padding: 0;
+}
+
+ul.info li:first-child::after {
+    content: '|';
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.icon {
+    color: #fff;
+}
+
+.social {
+    float: right;
+}
+
+.icon::after {
+    content: '|';
+    color: #fff;
+    padding: 0 30px;
+}
+
+.icon:last-child::after {
+    content: none;
+}
+
+.logo {
+    width: 30%;
+    height: 50px;
+    padding: 5px 10px;
+    float: left;
+}
+
+ul.menu li {
+    float: left;
+    padding-top: 10px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+ul.account {
+    float: right;
+}
+
+ul.menu li:last-child {
+    width: 80px;
+    padding: 10px;
+    float: right;
+    background: navy;
+    border-radius: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.banner img {
+    width: 100%;
+    margin-top: -100px;
+}
+
+.intro {
+    width: 80%;
+    margin: auto;
+    padding: 20px 10%;
+}
+
+.intro h2 {
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    text-transform: capitalize;
+}
+
+.intro p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+}
+
+.intro a {
+    font-size: 14px;
+    background: navy;
+    color: #fff;
+    width: 70px;
+    height: 40px;
+    padding: 10px 15px;
+    border-radius: 35px;
+}
+
+.text {
+    float: left;
+    width: 50%;
+}
+
+.image {
+    padding: 20px;
+}
+
+.intro img {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 150px;
+    margin: 20px 0 0 100px;
+    /* border: 5px solid rgba(0, 0, 0, .5); */
+    /* box-shadow: outset 0px 0px 40px 40px #DBA632; */
+}
+
+.row {
+    width: 80%;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+.col {
+    width: 25%;
+    margin: 0 5% 0 0;
+    padding: 10px;
+    border-left: 4px solid orange;
+    float: left;
+    box-shadow: 0px 2px 7px rgba(153, 153, 153, 0.5);
+}
+
+.col p {
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+}
+
+.col h3 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.col span {
+    float: right;
+    color: grey;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+section.courses {
+    background: navy;
+    margin-top: 70px;
+    padding: 100px 0;
+}
+
+.courses h2 {
+    font-weight: 500;
+}
+
+.courses .title {
+    width: 30%;
+    margin: auto;
+    padding: 0 10%;
+    text-align: center;
+    color: #fff;
+}
+
+.courses .title h4 {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.courses .row {
+    width: 80%;
+    margin: auto;
+}
+
+.courses .col {
+    width: 30%;
+    margin: 10px;
+    padding: 0;
+    border: none;
+    background: #fff;
+}
+
+.courses .col img {
+    width: 100%;
+}
+
+.details {
+    padding: 20px;
+}
+
+.details span {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0;
+    float: none;
+    background: orange;
+    color: navy;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.details h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.details p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.8px;
+}
+
+.title {
+    color: navy;
+    text-align: center;
+}
+
+.advisors {
+    width: 80%;
+    margin: auto;
+}
+
+.advisors .col {
+    width: 22%;
+    height: 300px;
+    overflow: hidden;
+    margin: 10px;
+    padding: 0;
+    border: 2px solid orange;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.advisors .col:nth-child(3) {
+    border: 2px solid navy;
+}
+
+.advisors .col img {
+    width: 100%;
+    height: 200px;
+}
+
+.advisors h4 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.advisors p {
+    text-align: center;
+}
+
+.title h2 {
+    font-weight: 500;
+}
+
+.title h4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}

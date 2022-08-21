@@ -1,0 +1,74 @@
+@font-face {
+    src: url(../font/myfont.ttf);
+    font-family: 'MyFont' ;
+
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background: #ff0;
+}
+
+div {
+    float: left;
+}
+
+.one {
+    background: #000;
+}
+
+.two {
+    background: #f0f;
+}
+
+.three {
+    background: #ff2;
+}
+
+.block {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.super {
+    width: 200px;
+    height: 200px;
+    background: #ff4400;
+    float: right;
+    /* 
+        comment here
+    */
+
+    margin: 30px 10px 30px 10px;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 990px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 550px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
